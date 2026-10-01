@@ -2,8 +2,6 @@
 
 A containerized quantitative-finance platform for **equity-derivatives pricing, volatility analysis, market risk, and structured-product analytics**.
 
-> Research and portfolio implementation. Not approved for live trading, client valuation, investment advice, or real-money risk management.
-
 ## Core capabilities
 
 - **European option pricing** with Black-Scholes
@@ -96,7 +94,7 @@ docker compose down
 Create one development environment from the repository root:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements-dev.txt
 ```
@@ -256,13 +254,3 @@ See `MODEL_RISK.md` for the complete control and model-risk discussion.
 - Market-data adapters with caching and validation
 - Authentication and role-based access control
 - Structured logging, metrics, and distributed tracing
-
-## Resume-ready description
-
-**QuantFin Structured Products Analytics Platform — Python, FastAPI, NumPy, SciPy, Pandas, Streamlit, Docker**
-
-- Built a containerized equity-derivatives analytics platform implementing Black-Scholes, Monte Carlo, implied-volatility inversion, American-option binomial pricing, and Greeks.
-- Developed market-risk analytics for historical VaR/CVaR and Delta-Gamma-Vega scenario analysis, exposed through validated FastAPI endpoints with automated model tests and CI.
-- Implemented buffered-note and path-dependent autocallable analytics with configurable barriers and payoff terms, supported by a Streamlit interface and reproducible model-validation workflow.
-
-Use these statements only after you have run the system and can explain the quantitative assumptions and implementation choices.
