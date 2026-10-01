@@ -1,0 +1,16 @@
+QuantFin Model Validation Summary
+=================================
+Black-Scholes call value: 10.4506
+Monte Carlo call value:   10.4205
+Monte Carlo 95% interval half-width: 0.0917
+Implied-volatility round trip: 20.0000%
+Greeks: {'delta': 0.636831, 'gamma': 0.018762, 'vega': 0.37524, 'theta': -0.017573, 'rho': 0.532325}
+American put value (binomial): 10.6431
+95% historical VaR: $17,050
+95% historical CVaR: $19,500
+Validation return observations: 40
+Buffered-note redemption at S_T=80: $950.00
+Autocallable present value: $1,001.45
+Autocall probability: 74.0%
+Capital-loss probability: 2.9%
+Expected redemption time: 0.54 years
